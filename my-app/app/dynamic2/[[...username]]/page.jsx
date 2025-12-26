@@ -7,7 +7,7 @@ const page = async ({ params }) => {
   return (
     <div className="flex justify-center items-center h-[90vh]">
       <h2 className="text-2xl underline">
-        This is dynamic 1 page that catch all routes 
+        This is dynamic 2 page that catch all routes {data.username}{" "}
       </h2>
     </div>
   );
